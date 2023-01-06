@@ -13,6 +13,7 @@ h1 {
   font-size: 5rem;
   background-image: linear-gradient(90deg, #00e5ff, #ff8800);
   background-size: 100%;
+  background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -28,6 +29,5 @@ h3 {
 
 .image {
   height: 15em;
-  weight: 15em;
   margin: 2rem 35vw;
 }
